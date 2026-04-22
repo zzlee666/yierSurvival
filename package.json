@@ -1,0 +1,22 @@
+{
+  "name": "dual-bear-survival",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "dev:server": "node server/index.mjs",
+    "dev:online": "node scripts/dev-online.mjs",
+    "build": "tsc && vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "serve:dist": "node scripts/serve-dist.mjs",
+    "start:prod": "node server/index.mjs"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3",
+    "vite": "^6.2.6"
+  },
+  "dependencies": {
+    "phaser": "^3.90.0"
+  }
+}
